@@ -32,17 +32,18 @@ export default function Home() {
       description: "I am very good in web development offering services, I offer reliable web development services to generate the most remarkable results which your business need."
     },
     {
-      title: "Mobile Development",
-      description: "Experienced mobile developer offering innovative solutions. Proficient in creating high-performance, user-centric mobile apps. Expertise in iOS, Android, and cross-platform development."
+      title: "Data Analytics",
+      description: "Detail-oriented data analyst with a strong foundation in extracting insights from complex datasets. Proficient in data cleaning, visualization, and statistical analysis using tools like Python, SQL, Excel, and Power BI. Committed to transforming raw data into actionable business intelligence."
+
     },
-    {
-      title: "Digital Marketing(SEO)",
-      description: "My digital marketing services will take your business to the next level, we offer remarkable digital marketing strategies that drives traffic to your website, your business, and improves your brand awareness to potential customers."
-    },
-    {
-      title: "Content Creator",
-      description: "Passionate photographer and videographer capturing moments with creativity. Transforming visions into visual stories. Expert in visual storytelling, skilled in both photography and videography to deliver captivating content."
-    }
+    // {
+    //   title: "Digital Marketing(SEO)",
+    //   description: "My digital marketing services will take your business to the next level, we offer remarkable digital marketing strategies that drives traffic to your website, your business, and improves your brand awareness to potential customers."
+    // },
+    // {
+    //   title: "Content Creator",
+    //   description: "Passionate photographer and videographer capturing moments with creativity. Transforming visions into visual stories. Expert in visual storytelling, skilled in both photography and videography to deliver captivating content."
+    // }
   ];
 
   const [loading,setLoading]=useState(true)
@@ -131,11 +132,16 @@ export default function Home() {
               <span className="hero_sb_title" data-aos='fade-right'>I am Sumit</span>
               <h1 className="hero_title" data-aos='fade-right'>Web Developer + <br /> <span className="typed-text">Data Analyst</span></h1>
               <div className="hero_img_box heroimgbox" data-aos='flip-left' data-aos-easing='ease-out-cubic' data-aos-duration='2000'>
-                <img src="img/me.jpg" alt="coder" />
+                <img src="img/me.jpg" alt="coder" style={{ height: "60px" }} />
+
               </div>
               <div className="lead" data-aos='fade-up'>I break down complex user experience problems to create integritiy focussed solutions that connect billions of people</div>
               <div className="hero_btn_box" data-aos='fade-up'>
-                <Link href='/' download={'/img/resume.pdf'} className="download_cv">Download CV <BiDownload/></Link>
+                {/* <Link href='/' download={'/img/resume.pdf'} className="download_cv">Download CV <BiDownload/></Link> */}
+                <a href="/img/resume.pdf" download="Sumit-Prasad-Resume.pdf" className="download_cv">
+  Download CV <BiDownload />
+</a>
+
                 <ul className="hero_social">
                   <li><a href="/" ><FaTwitter/></a></li>
                   <li><a href="/" ><LiaBasketballBallSolid/></a></li>
@@ -275,9 +281,9 @@ export default function Home() {
             </div>
             <div className="exper_cards">
               <div className="exper_card">
-                <span>2022 - 2026</span>
-                <h3>DVTECH IT SOLUTION</h3>
-                <p>Full Stack Mobile Developer</p>
+                <span> Sep 2024 - Oct 2024</span>
+                <h3>Trainity</h3>
+                <p>Data Analytics Virtual Intern</p>
               </div>
               <div className="exper_card">
                 <span>2018 - 2020</span>
@@ -384,7 +390,7 @@ export default function Home() {
       </section>
 
       {/* Recent Blogs */}
-      <section className="recentblogs">
+      {/* <section className="recentblogs">
         <div className="container">
           <div className="myskills_title">
             <h2>Recent Blog</h2>
@@ -410,7 +416,7 @@ export default function Home() {
           </div>
         </div>
        
-      </section>
+      </section> */}
 
     </>
   );

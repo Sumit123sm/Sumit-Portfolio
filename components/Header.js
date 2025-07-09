@@ -78,21 +78,21 @@ export default function Header() {
                         <li>
                             <Link href='/' onClick={()=>handleLinkClick('/')} className={activeLink ==='/' ? 'active' : ''}>Home</Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link href='/blogs' onClick={()  =>handleLinkClick('/blogs')} className={activeLink ==='/blogs' ? 'active' : ''}>Blogs</Link>
                         </li>
                         <li>
                             <Link href='/gallery' onClick={()=>handleLinkClick('/gallery')} className={activeLink ==='/gallery' ? 'active' : ''}>Gallery</Link>
-                        </li>
+                        </li> */}
                         <li>
                             <Link href='/services' onClick={()=>handleLinkClick('/services')} className={activeLink ==='/services' ? 'active' : ''}>Services</Link>
                         </li>
                         <li>
                             <Link href='/projects' onClick={()=>handleLinkClick('/projects')} className={activeLink ==='/projects' ? 'active' : ''}>Projects</Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link href='/shop' onClick={()=>handleLinkClick('/shop')} className={activeLink ==='/shop' ? 'active' : ''}>Shop</Link>
-                        </li>
+                        </li> */}
                         <li>
                             <Link href='/contact' onClick={()=>handleLinkClick('/contact')} className={activeLink ==='/contact' ? 'active' : ''}>Contact</Link>
                         </li>
@@ -118,21 +118,21 @@ export default function Header() {
                         <li>
                             <Link href='/' onClick={()=>handleLinkClick('/')} className={activeLink ==='/' ? 'active' : ''}>Home</Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link href='/blogs' onClick={()  =>handleLinkClick('/blogs')} className={activeLink ==='/blogs' ? 'active' : ''}>Blogs</Link>
                         </li>
                         <li>
                             <Link href='/gallery' onClick={()=>handleLinkClick('/gallery')} className={activeLink ==='/gallery' ? 'active' : ''}>Gallery</Link>
-                        </li>
+                        </li> */}
                         <li>
                             <Link href='/services' onClick={()=>handleLinkClick('/services')} className={activeLink ==='/services' ? 'active' : ''}>Services</Link>
                         </li>
                         <li>
                             <Link href='/projects' onClick={()=>handleLinkClick('/projects')} className={activeLink ==='/projects' ? 'active' : ''}>Projects</Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link href='/shop' onClick={()=>handleLinkClick('/shop')} className={activeLink ==='/shop' ? 'active' : ''}>Shop</Link>
-                        </li>
+                        </li> */}
                         <li>
                             <Link href='/contact' onClick={()=>handleLinkClick('/contact')} className={activeLink ==='/contact' ? 'active' : ''}>Contact</Link>
                         </li>
