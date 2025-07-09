@@ -143,10 +143,10 @@ export default function Home() {
 </a>
 
                 <ul className="hero_social">
-                  <li><a href="/" ><FaTwitter/></a></li>
-                  <li><a href="/" ><LiaBasketballBallSolid/></a></li>
-                  <li><a href="/" ><GrLinkedinOption/></a></li>
-                  <li><a href="/" ><FaGithub/></a></li>
+                  {/* <li><a href="/" ><FaTwitter/></a></li>
+                  <li><a href="/" ><LiaBasketballBallSolid/></a></li> */}
+                  <li><a href="https://www.linkedin.com/in/sumit-prasad-811736264/" ><GrLinkedinOption/></a></li>
+                  <li><a href="https://github.com/Sumit123sm" ><FaGithub/></a></li>
                 </ul>
               </div>
             </div>
@@ -165,17 +165,17 @@ export default function Home() {
               Experience </h4>
             </div>
             <div className="funfect_item" data-aos='fade-right'>
-              <h3>20+</h3>
+              <h3>9+</h3>
               <h4>Projects <br />
               Complated </h4>
             </div>
             <div className="funfect_item" data-aos='fade-left'>
-              <h3>12+</h3>
+              <h3>2+</h3>
               <h4>Open Source <br />
               Library </h4>
             </div>
             <div className="funfect_item" data-aos='fade-left'>
-              <h3>20+</h3>
+              <h3>2+</h3>
               <h4>Happy <br />
               Customers </h4>
             </div>

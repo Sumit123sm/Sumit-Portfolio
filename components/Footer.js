@@ -12,16 +12,16 @@ export default function Footer() {
             </div>
             <div className="ul flex gap-2">
                 <li><Link href='/services'>Services</Link></li>
-                <li><Link href='/services'>Works</Link></li>
-                <li><Link href='/services'>Resume</Link></li>
-                <li><Link href='/services'>Skills</Link></li>
-                <li><Link href='/services'>Contact</Link></li>
+                <li><Link href='/projects'>Projects</Link></li>
+                <li><a href="/img/resume.pdf" download="Sumit-Prasad-Resume.pdf" >Resume</a></li>
+                {/* <li><Link href='/services'>Skills</Link></li> */}
+                <li><Link href='/contact'>Contact</Link></li>
             </div>
             <ul className="hero_social">
-                <li><a href="/" target="_blank"><FaTwitter/></a></li>
-                <li><a href="/" target="_blank"><LiaBasketballBallSolid/></a></li>
-                <li><a href="/" target="_blank"><GrLinkedinOption/></a></li>
-                <li><a href="/" target="_blank"><FaGithub/></a></li>
+                {/* <li><a href="/" target="_blank"><FaTwitter/></a></li>
+                <li><a href="/" target="_blank"><LiaBasketballBallSolid/></a></li> */}
+                <li><a href="https://www.linkedin.com/in/sumit-prasad-811736264/" target="_blank"><GrLinkedinOption/></a></li>
+                <li><a href="https://github.com/Sumit123sm" target="_blank"><FaGithub/></a></li>
             </ul>
             <div className="copyrights">&copy; 2025 All Rights Reserved By <span>Sumitcoder.in</span></div>
          </div>
