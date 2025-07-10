@@ -4875,6 +4875,25 @@ header.sticky {
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    .myskils_cards {
+        flex-direction: row;
+        overflow-x: auto;
+        gap: 1rem;
+        align-items: flex-start;
+        padding-bottom: 1rem;
+        /* Hide scrollbar for a cleaner look */
+        scrollbar-width: none; /* Firefox */
+    }
+    .myskils_cards::-webkit-scrollbar {
+        display: none; /* Chrome, Safari */
+    }
+    .mys_card {
+        min-width: 160px;
+        max-width: 180px;
+        flex: 0 0 auto;
+        margin-bottom: 0;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -5101,4 +5120,61 @@ header.sticky {
     .mobilelogo img {
         width: 50px;
     }
+}
+
+/* --- Hero Section Responsive Fixes --- */
+@media (max-width: 768px) {
+  .hero .flex {
+    flex-direction: column !important;
+    align-items: center;
+  }
+  .heroinfoleft, .heroimageright {
+    width: 100% !important;
+    max-width: 100% !important;
+    text-align: center;
+  }
+  .heroimageright {
+    margin-top: 1.5rem;
+  }
+  .heroinfoleft {
+    margin-bottom: 1.5rem;
+  }
+  .hero_img_box {
+    margin-bottom: 2rem;
+  }
+  .hero_img_box img {
+    max-width: 220px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border-radius: 16px;
+    box-shadow: 0 2px 16px #eee;
+  }
+  .lead {
+    margin-top: 1rem;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    background: rgba(255,255,255,0.85);
+    padding: 0.7rem 1.2rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    color: #222;
+    box-shadow: 0 2px 8px #eee;
+  }
+}
+
+@media (min-width: 901px) {
+  .myskils_cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .mys_card {
+    flex: 0 0 22%; /* 4 per row with some gap */
+    max-width: 22%;
+    min-width: 180px;
+    margin-bottom: 2rem;
+    box-sizing: border-box;
+  }
 }

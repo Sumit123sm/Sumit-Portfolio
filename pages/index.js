@@ -132,10 +132,10 @@ export default function Home() {
               <span className="hero_sb_title" data-aos='fade-right'>I am Sumit</span>
               <h1 className="hero_title" data-aos='fade-right'>Web Developer + <br /> <span className="typed-text">Data Analyst</span></h1>
               <div className="hero_img_box heroimgbox" data-aos='flip-left' data-aos-easing='ease-out-cubic' data-aos-duration='2000'>
-                <img src="img/me.jpg" alt="coder" style={{ height: "60px" }} />
+                <img src="img/me.jpg" alt="coder" className="hero-img" />
 
               </div>
-              <div className="lead" data-aos='fade-up'>I break down complex user experience problems to create integritiy focussed solutions that connect billions of people</div>
+              <div className="lead" data-aos='fade-up'>I break down complex user experience problems...</div>
               <div className="hero_btn_box" data-aos='fade-up'>
                 {/* <Link href='/' download={'/img/resume.pdf'} className="download_cv">Download CV <BiDownload/></Link> */}
                 <a href="/img/resume.pdf" download="Sumit-Prasad-Resume.pdf" className="download_cv">
@@ -154,7 +154,7 @@ export default function Home() {
             {/* rightside image section */}
             <div className="heroimageright">
               <div className="hero_img_box" data-aos='flip-left' data-aos-easing='ease-out-cubic' data-aos-duration='2000'>
-                <img src="/img/me.png" alt="" />
+                <img src="/img/me.png" alt="" className="hero-img" />
               </div>
             </div>
           </div>
@@ -285,21 +285,7 @@ export default function Home() {
                 <h3>Trainity</h3>
                 <p>Data Analytics Virtual Intern</p>
               </div>
-              <div className="exper_card">
-                <span>2018 - 2020</span>
-                <h3>DVTECH IT SOLUTION</h3>
-                <p>Full Stack Mobile Developer</p>
-              </div>
-              <div className="exper_card">
-                <span>2022 - 2026</span>
-                <h3>DVTECH IT SOLUTION</h3>
-                <p>Full Stack Mobile Developer</p>
-              </div>
-              <div className="exper_card">
-                <span>2022 - 2026</span>
-                <h3>DVTECH IT SOLUTION</h3>
-                <p>Full Stack Mobile Developer</p>
-              </div>
+              
             </div>
           </div>
           <div className="education">
@@ -314,20 +300,16 @@ export default function Home() {
                 <p>CSE</p>
               </div>
               <div className="exper_card">
-                <span>2018 - 2020</span>
-                <h3>DVTECH IT SOLUTION</h3>
-                <p>Full Stack Mobile Developer</p>
+                <span>2020 - 2022</span>
+                <h3>N.G. ACHARYA & D.K. MARATHE COLLEGE</h3>
+                <p> Class XII</p>
               </div>
               <div className="exper_card">
-                <span>2022 - 2026</span>
-                <h3>DVTECH IT SOLUTION</h3>
-                <p>Full Stack Mobile Developer</p>
+                <span>2019 - 2020</span>
+                <h3> Joymax English High School</h3>
+                <p> Class X</p>
               </div>
-              <div className="exper_card">
-                <span>2022 - 2026</span>
-                <h3>DVTECH IT SOLUTION</h3>
-                <p>Full Stack Mobile Developer</p>
-              </div>
+              
             </div>
           </div>
         </div>
@@ -349,13 +331,13 @@ export default function Home() {
               </div>
               <p className="text-center">Python</p>
             </div>
-            <div className="mys_card">
+            {/* <div className="mys_card">
               <div className="mys_inner">
                 <img src="/img/firebase.svg" alt="firebase" />
                 <h3>92%</h3>
               </div>
               <p className="text-center">Firebase</p>
-            </div>
+            </div> */}
             <div className="mys_card">
               <div className="mys_inner">
                 <img src="/img/mongodb.svg" alt="mongodb" />
@@ -383,6 +365,35 @@ export default function Home() {
                 <h3>92%</h3>
               </div>
               <p className="text-center">JavaScript</p>
+            </div>
+            {/* Added Skills */}
+            <div className="mys_card">
+              <div className="mys_inner">
+                <img src="/img/powerbi.png" alt="Power BI" />
+                <h3>90%</h3>
+              </div>
+              <p className="text-center">Power BI</p>
+            </div>
+            <div className="mys_card">
+              <div className="mys_inner">
+                <img src="/img/excel.png" alt="Excel" />
+                <h3>90%</h3>
+              </div>
+              <p className="text-center">Excel</p>
+            </div>
+            <div className="mys_card">
+              <div className="mys_inner">
+                <img src="/img/sql.png" alt="SQL" />
+                <h3>90%</h3>
+              </div>
+              <p className="text-center">SQL</p>
+            </div>
+            <div className="mys_card">
+              <div className="mys_inner">
+                <img src="/img/aws.png" alt="AWS" />
+                <h3>85%</h3>
+              </div>
+              <p className="text-center">AWS</p>
             </div>
           </div>
         </div>
