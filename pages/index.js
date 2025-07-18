@@ -9,6 +9,7 @@ import { useEffect, useState } from "react";
 import Spinner from "@/components/Spinner";
 import { LuMedal } from "react-icons/lu";
 import { PiGraduationCap } from "react-icons/pi";
+import { SiLeetcode } from "react-icons/si";
 
 export default function Home() {
 
@@ -147,6 +148,7 @@ export default function Home() {
                   <li><a href="/" ><LiaBasketballBallSolid/></a></li> */}
                   <li><a href="https://www.linkedin.com/in/sumit-prasad-811736264/" ><GrLinkedinOption/></a></li>
                   <li><a href="https://github.com/Sumit123sm" ><FaGithub/></a></li>
+                  <li><a href="https://leetcode.com/u/aTjPRmJntF/" ><SiLeetcode/></a></li>
                 </ul>
               </div>
             </div>

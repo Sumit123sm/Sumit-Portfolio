@@ -2,6 +2,7 @@ import Link from "next/link";
 import { FaFacebookF, FaGithub, FaTwitter } from "react-icons/fa6";
 import { GrLinkedinOption } from "react-icons/gr";
 import { LiaBasketballBallSolid } from "react-icons/lia";
+import { SiLeetcode } from "react-icons/si";
 
 export default function Footer() {
     return <>
@@ -22,6 +23,7 @@ export default function Footer() {
                 <li><a href="/" target="_blank"><LiaBasketballBallSolid/></a></li> */}
                 <li><a href="https://www.linkedin.com/in/sumit-prasad-811736264/" target="_blank"><GrLinkedinOption/></a></li>
                 <li><a href="https://github.com/Sumit123sm" target="_blank"><FaGithub/></a></li>
+                <li><a href="https://leetcode.com/u/aTjPRmJntF/" target="_blank"><SiLeetcode/></a></li>
             </ul>
             <div className="copyrights">&copy; 2025 All Rights Reserved By <span>Sumitcoder.in</span></div>
          </div>
