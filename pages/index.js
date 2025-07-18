@@ -135,7 +135,7 @@ export default function Home() {
                 <img src="img/me.jpg" alt="coder" className="hero-img" />
 
               </div>
-              <div className="lead" data-aos='fade-up'>I break down complex user experience problems...</div>
+              <div className="lead" data-aos='fade-up'>BTech Graduate 2026 | NIT NAGALAND</div>
               <div className="hero_btn_box" data-aos='fade-up'>
                 {/* <Link href='/' download={'/img/resume.pdf'} className="download_cv">Download CV <BiDownload/></Link> */}
                 <a href="/img/resume.pdf" download="Sumit-Prasad-Resume.pdf" className="download_cv">
