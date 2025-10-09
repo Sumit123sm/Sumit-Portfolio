@@ -138,7 +138,7 @@ export default function contact() {
                                 <h2>How much is the anticipated budget for your next project?</h2>
                             </div>
                             <div className="rightcontredio">
-                        {['Less than $400', '$400 - $800', '$800 - $1000', 'More than $1000'].map(
+                        {['Less than $15K', '₹15K - ₹25K', '₹25K - ₹35K', 'More than ₹35K'].map(
                             (priceRange) => (
                             <div key={priceRange} className="radio-button">
                                 <input
