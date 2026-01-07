@@ -139,7 +139,7 @@ export default function Home() {
               <div className="lead" data-aos='fade-up'>BTech Graduate 2026 | NIT NAGALAND</div>
               <div className="hero_btn_box" data-aos='fade-up'>
                 {/* <Link href='/' download={'/img/resume.pdf'} className="download_cv">Download CV <BiDownload/></Link> */}
-                <a href="https://drive.google.com/file/d/1rwGTxoffH7a2u-c7aQsqUiaMZA6zeB4O/view?usp=sharing" target="_blank" download="Sumit-Prasad-Resume.pdf" className="download_cv">
+                <a href="https://drive.google.com/file/d/14mzDRKs9J4YnaeEi5VN2L50JzleQ3U76/view?usp=sharing" target="_blank" download="Sumit-Prasad-Resume.pdf" className="download_cv">
   Download CV <BiDownload />
 </a>
 
