@@ -133,7 +133,7 @@ export default function Home() {
               <span className="hero_sb_title" data-aos='fade-right'>I am Sumit</span>
               <h1 className="hero_title" data-aos='fade-right'>Web Developer + <br /> <span className="typed-text">Data Analyst</span></h1>
               <div className="hero_img_box heroimgbox" data-aos='flip-left' data-aos-easing='ease-out-cubic' data-aos-duration='2000'>
-                <img src="img/me.jpg" alt="coder" className="hero-img" />
+                <img src="img/photo.jpg" alt="coder" className="hero-img" />
 
               </div>
               <div className="lead" data-aos='fade-up'>BTech Graduate 2026 | NIT NAGALAND</div>
